@@ -1,0 +1,21 @@
+{
+  "benchmark_name": "PromptSensitivity-IEEE-v1",
+  "version": "1.0",
+  "random_seed": 42,
+  "total_questions": 200,
+  "task_distribution": {
+    "math": 40,
+    "logic": 40,
+    "commonsense": 40,
+    "knowledge": 40,
+    "reading": 40
+  },
+  "sources": {
+    "math": "GSM8K test",
+    "logic": "BIG-bench Logical Deduction validation",
+    "commonsense": "CommonsenseQA validation",
+    "knowledge": "MMLU test",
+    "reading": "SQuAD validation"
+  },
+  "sha256": "8d5ad847375eb7627fb799e74dabd6962e3fd9dd540b1b8943bf6671449814d2"
+}

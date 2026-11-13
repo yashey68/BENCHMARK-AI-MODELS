@@ -1,0 +1,20 @@
+{
+  "benchmark_name": "PromptSensitivity-IEEE-v1",
+  "benchmark_sha256": "8d5ad847375eb7627fb799e74dabd6962e3fd9dd540b1b8943bf6671449814d2",
+  "questions": 200,
+  "prompt_conditions": 10,
+  "total_prompts": 2000,
+  "prompt_ids": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "P6",
+    "P7",
+    "P8",
+    "P9"
+  ],
+  "prompt_dataset_sha256": "7b5fdfe2714a4bcd3773c0dcb6f565323ec40860d74f347b93af9bf79d85ab84"
+}

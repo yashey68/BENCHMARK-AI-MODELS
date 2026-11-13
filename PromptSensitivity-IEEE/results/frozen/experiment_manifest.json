@@ -1,0 +1,30 @@
+{
+  "phi4-mini": {
+    "source": "results/raw/phi4-mini_latest_responses.jsonl",
+    "frozen_copy": "results/frozen/phi4-mini_latest_responses.jsonl",
+    "records": 500,
+    "unique_conditions": 500,
+    "sha256": "27f2e0bcdb5de20af23745bd4fa288f7a7b51a49ad7200c30cef6880078a2c0e"
+  },
+  "gemma3-12b": {
+    "source": "results/raw/gemma3_12b_responses.jsonl",
+    "frozen_copy": "results/frozen/gemma3_12b_responses.jsonl",
+    "records": 500,
+    "unique_conditions": 500,
+    "sha256": "a140986bea5baa1e8573fa5b39cbb2560cc334ec85f6dc8aed2add7d47ebf162"
+  },
+  "qwen3.5": {
+    "source": "results/raw/qwen3.5_latest_responses.jsonl",
+    "frozen_copy": "results/frozen/qwen3.5_latest_responses.jsonl",
+    "records": 500,
+    "unique_conditions": 500,
+    "sha256": "471f58c7b7b38dfc3b9b11214b4f5a1cdc959091e35d1d48f7530d9a6e93c160"
+  },
+  "mistral-small3.2": {
+    "source": "results/raw/mistral-small3.2_latest_responses.jsonl",
+    "frozen_copy": "results/frozen/mistral-small3.2_latest_responses.jsonl",
+    "records": 500,
+    "unique_conditions": 500,
+    "sha256": "012d73d9ea04e3039ee7aef9348f132a0c1d4cb6262658554bf92355d167c106"
+  }
+}

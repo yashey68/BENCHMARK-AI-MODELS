@@ -1,0 +1,5 @@
+Model,Objective Accuracy,Prompt Accuracy Delta,Mean CFR,Pairwise AAR,Reading EM,Reading F1,Format Compliance,Mean Latency (s),Mean Output Tokens,Truncations,Cochran Q,Cochran p,Reading Friedman Chi2,Reading p,Reading Kendall W,Holm-significant pairs
+Phi-4 Mini,30.25,15.0,13.17,48.89,36.0,61.84,82.0,0.932,33.96,5,17.051,0.0479,35.34,5.19e-05,0.393,0
+Gemma 3 12B,48.0,22.5,21.0,40.44,64.0,77.35,80.2,3.329,56.42,21,15.619,0.0753,51.355,5.98e-08,0.571,0
+Qwen 3.5,41.75,30.0,27.28,30.53,46.0,71.19,74.6,3.104,90.21,51,37.778,1.91e-05,40.397,6.44e-06,0.449,0
+Mistral Small 3.2,44.0,30.0,29.67,36.4,45.0,67.32,68.2,8.725,74.71,27,22.989,0.00622,43.817,1.53e-06,0.487,0

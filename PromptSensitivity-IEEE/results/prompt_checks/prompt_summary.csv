@@ -1,0 +1,11 @@
+prompt_id,prompt_name,complexity_level,prompt_group,word_count,character_count,sentence_count,avg_word_length,avg_sentence_length,lexical_diversity,flesch_reading_ease,flesch_kincaid_grade,lexical_jaccard_vs_p0,normalized_edit_distance_vs_p0
+P0,minimal_baseline,0,minimal,2.0,19.0,1.0,7.0,2.0,1.0,35.605,8.79,1.0,0.0
+P1,simple_instruction,1,semantic_preserving,6.0,52.0,2.0,7.0,3.0,0.6667,31.545000000000005,10.35,0.5,0.9423
+P2,explicit_instruction,2,semantic_preserving,12.0,95.0,2.0,6.4167000000000005,6.0,0.6667,24.495,11.3333,0.25,0.8105
+P3,structured_instruction,3,semantic_preserving,19.0,143.0,2.0,6.1053,9.5,0.7368,36.8978,10.4729,0.1429,0.8741
+P4,detailed_instruction,4,semantic_preserving,35.0,274.0,2.0,6.5714,17.5,0.8,-1.8817999999999997,17.8693,0.0714,0.9343
+P5,analytical_instruction,5,reasoning_intervention,39.0,306.0,3.0,6.589699999999999,13.0,0.7949,11.4246,14.8954,0.0645,0.9379
+P6,analytical_verification,6,reasoning_intervention,63.0,467.0,4.0,6.2063,15.75,0.7937,8.2202,16.0255,0.04,0.9593
+P7,expert_reasoning,7,reasoning_intervention,59.0,464.0,5.0,6.610200000000001,11.8,0.8135999999999999,1.2817,16.012,0.0417,0.9612
+P8,sophisticated_analytical,8,linguistic_reasoning_intervention,78.0,612.0,5.0,6.6667000000000005,15.6,0.7949,-9.6528,18.4812,0.0323,0.9705999999999999
+P9,comprehensive_high_complexity,9,high_complexity_intervention,124.0,1049.0,6.0,7.2661,20.6667,0.7742,-36.5578,23.4926,0.0208,0.9827999999999999

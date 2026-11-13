@@ -1,0 +1,21 @@
+model,task,mean_pairwise_aar,mean_unique_answers
+Gemma 3 12B,commonsense,0.4533333333333333,3.6
+Gemma 3 12B,knowledge,0.40888888888888886,4.3
+Gemma 3 12B,logic,0.42000000000000004,4.3
+Gemma 3 12B,math,0.19555555555555554,6.1
+Gemma 3 12B,reading,0.5444444444444445,3.3
+Mistral Small 3.2,commonsense,0.5244444444444445,3.5
+Mistral Small 3.2,knowledge,0.4022222222222222,4.5
+Mistral Small 3.2,logic,0.32666666666666666,5.2
+Mistral Small 3.2,math,0.09777777777777777,7.1
+Mistral Small 3.2,reading,0.4688888888888889,3.7
+Phi-4 Mini,commonsense,0.6444444444444445,3.0
+Phi-4 Mini,knowledge,0.5488888888888889,3.5
+Phi-4 Mini,logic,0.6266666666666667,2.9
+Phi-4 Mini,math,0.16444444444444445,6.0
+Phi-4 Mini,reading,0.4600000000000001,3.4
+Qwen 3.5,commonsense,0.37333333333333335,4.2
+Qwen 3.5,knowledge,0.3088888888888889,5.1
+Qwen 3.5,logic,0.30666666666666664,5.3
+Qwen 3.5,math,0.20222222222222222,5.4
+Qwen 3.5,reading,0.33555555555555555,4.7

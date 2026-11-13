@@ -1,0 +1,172 @@
+P0:
+  name: minimal_baseline
+  group: minimal
+  complexity_level: 0
+  manipulation: minimal_instruction
+  template: |
+    {question}
+
+    Answer.
+
+P1:
+  name: simple_instruction
+  group: semantic_preserving
+  complexity_level: 1
+  manipulation: simple_instruction
+  template: |
+    Answer the following question.
+
+    Question:
+    {question}
+
+P2:
+  name: explicit_instruction
+  group: semantic_preserving
+  complexity_level: 2
+  manipulation: explicit_output_constraint
+  template: |
+    Answer the following question accurately.
+
+    Question:
+    {question}
+
+    Provide only the final answer.
+
+P3:
+  name: structured_instruction
+  group: semantic_preserving
+  complexity_level: 3
+  manipulation: structural_formatting
+  template: |
+    TASK:
+    Determine the correct answer to the question presented below.
+
+    QUESTION:
+    {question}
+
+    RESPONSE REQUIREMENT:
+    Provide only the final answer.
+
+P4:
+  name: detailed_instruction
+  group: semantic_preserving
+  complexity_level: 4
+  manipulation: descriptive_expansion
+  template: |
+    Carefully read the following question and determine the correct
+    answer using the information explicitly provided in the problem.
+
+    Question:
+    {question}
+
+    Provide an accurate response containing only the final answer,
+    without additional explanation, commentary, or elaboration.
+
+P5:
+  name: analytical_instruction
+  group: reasoning_intervention
+  complexity_level: 5
+  manipulation: analytical_guidance
+  template: |
+    Carefully analyze the following question before determining your
+    response. Examine the relevant information, relationships, and
+    constraints contained within the problem and use them to determine
+    the appropriate solution.
+
+    Question:
+    {question}
+
+    After completing your analysis, provide only the final answer.
+
+P6:
+  name: analytical_verification
+  group: reasoning_intervention
+  complexity_level: 6
+  manipulation: analysis_and_verification
+  template: |
+    Conduct a careful analysis of the problem presented below. Evaluate
+    the relevant information and identify the logical, contextual, or
+    quantitative relationships required to determine the solution.
+
+    Before responding, verify that your conclusion is consistent with
+    all conditions specified in the question and that no relevant
+    constraint has been overlooked.
+
+    Question:
+    {question}
+
+    After completing the analysis and verification process, provide
+    only the final answer.
+
+P7:
+  name: expert_reasoning
+  group: reasoning_intervention
+  complexity_level: 7
+  manipulation: expert_persona_and_reasoning
+  template: |
+    Assume the role of an expert problem solver with strong analytical,
+    logical, and critical reasoning capabilities.
+
+    Systematically examine the information presented in the following
+    question. Identify the relevant facts, relationships, dependencies,
+    and constraints required to determine the correct solution.
+    Evaluate the validity of your conclusion before producing the
+    response.
+
+    Question:
+    {question}
+
+    Return only the final answer without additional explanation.
+
+P8:
+  name: sophisticated_analytical
+  group: linguistic_reasoning_intervention
+  complexity_level: 8
+  manipulation: lexical_sophistication_and_reasoning
+  template: |
+    Undertake a rigorous analytical examination of the problem
+    presented below. Identify the salient information, evaluate the
+    pertinent logical, contextual, or quantitative relationships, and
+    derive the response that is most consistent with the conditions
+    articulated in the problem.
+
+    Exercise careful judgment to avoid conclusions arising from
+    superficial interpretation. Assess the internal consistency of the
+    derived solution and ensure that it remains compatible with all
+    relevant information provided.
+
+    Question:
+    {question}
+
+    Provide exclusively the final answer without supplementary
+    commentary or explanation.
+
+P9:
+  name: comprehensive_high_complexity
+  group: high_complexity_intervention
+  complexity_level: 9
+  manipulation: dense_multistage_instruction
+  template: |
+    Perform a comprehensive and methodologically rigorous evaluation of
+    the problem articulated below. Examine all salient information,
+    explicit and implicit constraints, relevant logical dependencies,
+    quantitative relationships, and contextual factors necessary for
+    deriving the appropriate conclusion.
+
+    Your analysis should prioritize semantic precision, logical
+    coherence, evidential consistency, and adherence to the conditions
+    established by the problem. Distinguish relevant information from
+    potentially distracting or nonessential elements and evaluate
+    whether an initially apparent solution remains valid following a
+    systematic examination of the available evidence.
+
+    Prior to producing the response, independently verify the derived
+    conclusion for internal consistency and compatibility with every
+    applicable condition specified in the question.
+
+    Question:
+    {question}
+
+    Upon completion of this analytical and verification process,
+    provide exclusively the final answer without supplementary
+    explanation, commentary, justification, or elaboration.

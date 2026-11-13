@@ -1,0 +1,3 @@
+group,n,accuracy,mean_latency_seconds,mean_output_tokens,format_compliance
+P0-P4_control_style,200,0.31,1.5416820000000002,65.93,0.645
+P5-P9_reasoning_intervention,200,0.295,0.48530699999999993,11.19,0.93

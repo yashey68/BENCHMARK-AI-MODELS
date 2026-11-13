@@ -1,0 +1,72 @@
+benchmark:
+  name: PromptSensitivity-IEEE-v1
+  version: "1.0"
+
+  tasks:
+    math:
+      target_questions: 40
+
+    logic:
+      target_questions: 40
+
+    commonsense:
+      target_questions: 40
+
+    knowledge:
+      target_questions: 40
+
+    reading:
+      target_questions: 40
+
+  total_questions: 200
+
+prompt_conditions:
+  count: 10
+  ids:
+    - P0
+    - P1
+    - P2
+    - P3
+    - P4
+    - P5
+    - P6
+    - P7
+    - P8
+    - P9
+
+models:
+  - qwen3.5:latest
+  - gemma3:12b
+  - mistral-small3.2:latest
+  - phi4-mini:latest
+
+generation:
+  temperature: 0
+  seed: 42
+  max_tokens: 512
+
+evaluation:
+  primary_metric: answer_accuracy
+
+  secondary_metrics:
+    - strict_exact_match
+    - format_compliance
+    - correctness_flip_rate
+    - answer_agreement_rate
+    - latency
+    - output_tokens
+
+experimental_groups:
+  control:
+    - P0
+    - P1
+    - P2
+    - P3
+    - P4
+
+  reasoning_intervention:
+    - P5
+    - P6
+    - P7
+    - P8
+    - P9

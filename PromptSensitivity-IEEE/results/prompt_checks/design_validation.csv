@@ -1,0 +1,11 @@
+prompt_id,prompt_name,prompt_group,complexity_level,task_preserved,final_answer_required,reasoning_guidance,verification_instruction,expert_persona,lexical_sophistication,dense_instruction,intervention_count
+P0,minimal_baseline,minimal,0,1,1,0,0,0,0,0,0
+P1,simple_instruction,semantic_preserving,1,1,1,0,0,0,0,0,0
+P2,explicit_instruction,semantic_preserving,2,1,1,0,0,0,0,0,0
+P3,structured_instruction,semantic_preserving,3,1,1,0,0,0,0,0,0
+P4,detailed_instruction,semantic_preserving,4,1,1,0,0,0,0,0,0
+P5,analytical_instruction,reasoning_intervention,5,1,1,1,0,0,0,0,1
+P6,analytical_verification,reasoning_intervention,6,1,1,1,1,0,0,0,2
+P7,expert_reasoning,reasoning_intervention,7,1,1,1,1,1,0,0,3
+P8,sophisticated_analytical,linguistic_reasoning_intervention,8,1,1,1,1,0,1,0,3
+P9,comprehensive_high_complexity,high_complexity_intervention,9,1,1,1,1,0,1,1,4

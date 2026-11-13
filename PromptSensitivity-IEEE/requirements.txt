@@ -1,0 +1,17 @@
+pandas
+numpy
+scipy
+scikit-learn
+statsmodels
+sentence-transformers
+transformers
+torch
+datasets
+accelerate
+tqdm
+pyyaml
+matplotlib
+seaborn
+nltk
+textstat
+rapidfuzz

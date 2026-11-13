@@ -1,0 +1,11 @@
+prompt_id,prompt_name,prompt_group,complexity_level,manipulation,semantic_similarity_vs_p0
+P0,minimal_baseline,minimal,0,minimal_instruction,1.0
+P1,simple_instruction,semantic_preserving,1,simple_instruction,0.80158
+P2,explicit_instruction,semantic_preserving,2,explicit_output_constraint,0.545645
+P3,structured_instruction,semantic_preserving,3,structural_formatting,0.464432
+P4,detailed_instruction,semantic_preserving,4,descriptive_expansion,0.376711
+P5,analytical_instruction,reasoning_intervention,5,analytical_guidance,0.350872
+P6,analytical_verification,reasoning_intervention,6,analysis_and_verification,0.2484
+P7,expert_reasoning,reasoning_intervention,7,expert_persona_and_reasoning,0.329655
+P8,sophisticated_analytical,linguistic_reasoning_intervention,8,lexical_sophistication_and_reasoning,0.194118
+P9,comprehensive_high_complexity,high_complexity_intervention,9,dense_multistage_instruction,0.222199

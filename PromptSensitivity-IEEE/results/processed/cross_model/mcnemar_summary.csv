@@ -1,0 +1,5 @@
+model,comparisons,raw_significant,holm_significant,minimum_raw_p,minimum_holm_p
+Gemma 3 12B,45,1,0,0.03515625,1.0
+Mistral Small 3.2,45,6,0,0.01690053939819336,0.7605242729187012
+Phi-4 Mini,45,1,0,0.03125,1.0
+Qwen 3.5,45,15,0,0.0018310546875,0.0823974609375

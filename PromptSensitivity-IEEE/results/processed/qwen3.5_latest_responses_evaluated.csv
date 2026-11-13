@@ -1,0 +1,135 @@
+question_id,task,prompt_id,prompt_name,prompt_group,complexity_level,manipulation,question,ground_truth,prompt,model,response,latency_seconds,prompt_eval_count,eval_count,eval_duration,load_duration,total_duration,status,extracted_answer,correct,strict_exact_match,format_compliant
+MATH_001,math,P0,minimal_baseline,minimal,0,minimal_instruction,"A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?",0%,"A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?
+
+Answer.",qwen3.5:latest,"Let the original quantity be $x$.
+
+1.  **Increase by 25%:**
+    The new value becomes $x + 0.25x = 1.25x$.
+
+2.  **Decrease by 20%:**
+    This decrease is applied to the *new* value ($1.25x$).
+    The new value becomes $1.25x - (0.20 \times 1.25x) = 1.25x \times (1 - 0.20) = 1.25x \times 0.80$.
+
+3.  **Calculate the final value:**
+    $1.25 \times 0.80 = 1$
+    So, the final quantity is $1x$, which is equal to the original quantity.
+
+4.  **Percentage Change:**
+    Since the final quantity is the same as the original quantity, there is no change.
+
+Answer: **0%**",35.9363,42,1919,35709690000,11965625,35921697209,success,0%,1,0,0
+MATH_001,math,P1,simple_instruction,semantic_preserving,1,simple_instruction,"A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?",0%,"Answer the following question.
+
+Question:
+A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?",qwen3.5:latest,"The percentage change is **0%**.
+
+Here is the step-by-step breakdown:
+
+1.  Let the original quantity be **$x$**.
+2.  **Increase by 25%:**
+    $$x + (0.25 \times x) = 1.25x$$
+3.  **Decrease by 20%:**
+    The decrease is applied to the new amount ($1.25x$).
+    $$1.25x - (0.20 \times 1.25x) = 1.25x \times (1 - 0.20)$$
+    $$= 1.25x \times 0.80$$
+    $$= 1.00x$$
+
+Since the final quantity ($1.00x$) is equal to the original quantity ($x$), there is no net change.
+
+**Answer:** 0%",21.0459,48,1071,20821121000,8491333,21041903416,success,0%,1,0,0
+MATH_001,math,P2,explicit_instruction,semantic_preserving,2,explicit_output_constraint,"A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?",0%,"Answer the following question accurately.
+
+Question:
+A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?
+
+Provide only the final answer.",qwen3.5:latest,0%,11.8333,56,571,11602633000,8837250,11829499208,success,0%,1,1,1
+MATH_001,math,P3,structured_instruction,semantic_preserving,3,structural_formatting,"A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?",0%,"TASK:
+Determine the correct answer to the question presented below.
+
+QUESTION:
+A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?
+
+RESPONSE REQUIREMENT:
+Provide only the final answer.",qwen3.5:latest,0%,13.0639,70,640,12764998000,5428541,13060827875,success,0%,1,1,1
+MATH_001,math,P4,detailed_instruction,semantic_preserving,4,descriptive_expansion,"A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?",0%,"Carefully read the following question and determine the correct
+answer using the information explicitly provided in the problem.
+
+Question:
+A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?
+
+Provide an accurate response containing only the final answer,
+without additional explanation, commentary, or elaboration.",qwen3.5:latest,0%,11.6763,86,559,11382760000,4977500,11673208083,success,0%,1,1,1
+MATH_001,math,P5,analytical_instruction,reasoning_intervention,5,analytical_guidance,"A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?",0%,"Carefully analyze the following question before determining your
+response. Examine the relevant information, relationships, and
+constraints contained within the problem and use them to determine
+the appropriate solution.
+
+Question:
+A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?
+
+After completing your analysis, provide only the final answer.",qwen3.5:latest,0%,192.2667,92,3793,191955642000,5625542,192252066000,success,0%,1,1,1
+MATH_001,math,P6,analytical_verification,reasoning_intervention,6,analysis_and_verification,"A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?",0%,"Conduct a careful analysis of the problem presented below. Evaluate
+the relevant information and identify the logical, contextual, or
+quantitative relationships required to determine the solution.
+
+Before responding, verify that your conclusion is consistent with
+all conditions specified in the question and that no relevant
+constraint has been overlooked.
+
+Question:
+A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?
+
+After completing the analysis and verification process, provide
+only the final answer.",qwen3.5:latest,0%,75.3168,121,1900,74788221000,9765917,75308709250,success,0%,1,1,1
+MATH_001,math,P7,expert_reasoning,reasoning_intervention,7,expert_persona_and_reasoning,"A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?",0%,"Assume the role of an expert problem solver with strong analytical,
+logical, and critical reasoning capabilities.
+
+Systematically examine the information presented in the following
+question. Identify the relevant facts, relationships, dependencies,
+and constraints required to determine the correct solution.
+Evaluate the validity of your conclusion before producing the
+response.
+
+Question:
+A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?
+
+Return only the final answer without additional explanation.",qwen3.5:latest,0%,32.184,119,869,31697941000,6686041,32178414666,success,0%,1,1,1
+MATH_001,math,P8,sophisticated_analytical,linguistic_reasoning_intervention,8,lexical_sophistication_and_reasoning,"A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?",0%,"Undertake a rigorous analytical examination of the problem
+presented below. Identify the salient information, evaluate the
+pertinent logical, contextual, or quantitative relationships, and
+derive the response that is most consistent with the conditions
+articulated in the problem.
+
+Exercise careful judgment to avoid conclusions arising from
+superficial interpretation. Assess the internal consistency of the
+derived solution and ensure that it remains compatible with all
+relevant information provided.
+
+Question:
+A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?
+
+Provide exclusively the final answer without supplementary
+commentary or explanation.",qwen3.5:latest,0%,36.4198,147,1018,35849216000,5970792,36414075084,success,0%,1,1,1
+MATH_001,math,P9,comprehensive_high_complexity,high_complexity_intervention,9,dense_multistage_instruction,"A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?",0%,"Perform a comprehensive and methodologically rigorous evaluation of
+the problem articulated below. Examine all salient information,
+explicit and implicit constraints, relevant logical dependencies,
+quantitative relationships, and contextual factors necessary for
+deriving the appropriate conclusion.
+
+Your analysis should prioritize semantic precision, logical
+coherence, evidential consistency, and adherence to the conditions
+established by the problem. Distinguish relevant information from
+potentially distracting or nonessential elements and evaluate
+whether an initially apparent solution remains valid following a
+systematic examination of the available evidence.
+
+Prior to producing the response, independently verify the derived
+conclusion for internal consistency and compatibility with every
+applicable condition specified in the question.
+
+Question:
+A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?
+
+Upon completion of this analytical and verification process,
+provide exclusively the final answer without supplementary
+explanation, commentary, justification, or elaboration.",qwen3.5:latest,0%,39.086,215,1048,38339246000,7532167,39079848917,success,0%,1,1,1

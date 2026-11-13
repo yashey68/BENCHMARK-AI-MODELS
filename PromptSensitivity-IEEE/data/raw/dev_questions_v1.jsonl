@@ -1,0 +1,10 @@
+{"id":"MATH_001","task":"math","question":"A quantity is increased by 25% and then decreased by 20%. Compared with the original quantity, what is the percentage change?","answer":"0%"}
+{"id":"MATH_002","task":"math","question":"A product costing 800 is discounted by 15%. What is the new price?","answer":"680"}
+{"id":"LOGIC_001","task":"logic","question":"All roses are flowers. Some flowers fade quickly. Can we conclude that some roses fade quickly? Answer yes or no.","answer":"no"}
+{"id":"LOGIC_002","task":"logic","question":"If all A are B and all B are C, must all A be C? Answer yes or no.","answer":"yes"}
+{"id":"COMMON_001","task":"commonsense","question":"If an uncovered ice cube is left in a warm room for several hours, will it most likely remain frozen or melt?","answer":"melt"}
+{"id":"COMMON_002","task":"commonsense","question":"Which is normally used to cut paper: scissors or a pillow?","answer":"scissors"}
+{"id":"KNOW_001","task":"knowledge","question":"What is the chemical symbol for gold?","answer":"Au"}
+{"id":"KNOW_002","task":"knowledge","question":"Which planet is known as the Red Planet?","answer":"Mars"}
+{"id":"READ_001","task":"reading","question":"Ravi entered the library at 3 PM and left two hours later. At what time did Ravi leave?","answer":"5 PM"}
+{"id":"READ_002","task":"reading","question":"The blue box is heavier than the red box. The red box is heavier than the green box. Which box is the lightest?","answer":"green"}
